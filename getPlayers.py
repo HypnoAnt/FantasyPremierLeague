@@ -6,8 +6,7 @@ import time
 #import requests
 
 statsUrl = "https://fantasy.premierleague.com/statistics"
-chromedriver = "/usr/bin/chromedriver"
-web = webdriver.Chrome(chromedriver)
+web = webdriver.Chrome()
 
 
 def cookieDecline():
